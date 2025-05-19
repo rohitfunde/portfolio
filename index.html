@@ -1,169 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rohit Funde - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohit Funde - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <a href="#">Rohit Funde</a>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#">Rohit Funde</a>
+    </div>
+    <div class="nav-links">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+    </div>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <section id="home" class="home-section">
+    <div class="home-content">
+      <h1>Hi, I'm <span class="highlight">Rohit Funde</span></h1>
+      <p class="location">From GONDIA, India</p>
+      <p class="description">Welcome to my portfolio website. I'm passionate about creating amazing digital experiences.
+      </p>
+      <div class="cta-buttons">
+        <a href="#contact" class="btn primary">Get in Touch</a>
+        <a href="#project" class="btn secondary">View My Work</a>
+      </div>
+    </div>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/rohit-funde/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/rohitfunde" class="social-icon"><i class="fab fa-github"></i></a>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <div class="about-content">
+        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+        <div class="about-text">
+          <p>Hi, I'm Rohit Funde, and I come from the beautiful village of Khatiya. I have a strong passion for building
+            new ideas and creating something valuable, which drives me toward my dream of becoming an entrepreneur.</p>
+          <p>I believe in hard work, learning from every experience, and staying focused on my goals. Right now, I am
+            working on developing my skills, gaining knowledge, and preparing myself to start my own venture in the
+            future.</p>
         </div>
-        <div class="nav-links">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contactus">Contact</a></li>
-            </ul>
-        </div>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-    </nav>
-
-    <section id="home" class="home-section">
-        <div class="home-content">
-            <h1>Hi, I'm <span class="highlight">Rohit Funde</span></h1>
-            <p class="location">From Khatiya, India</p>
-            <p class="description">Welcome to my portfolio website. I'm passionate about creating amazing digital experiences.</p>
-            <div class="cta-buttons">
-                <a href="#contact" class="btn primary">Get in Touch</a>
-                <a href="#projects" class="btn secondary">View My Work</a>
-            </div>
-        </div>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/rohit-funde/" class="social-icon"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/rohitfunde" class="social-icon"><i class="fab fa-github"></i></a>
-        </div>
-    </section>
-
-    <section id="about" class="about-section">
-        <div class="about-container">
-            <div class="about-content">
-                <h2 class="section-title">About <span class="highlight">Me</span></h2>
-                <div class="about-text">
-                    <p>Hi, I'm Rohit Funde, and I come from the beautiful village of Khatiya. I have a strong passion for building new ideas and creating something valuable, which drives me toward my dream of becoming an entrepreneur.</p>
-                    <p>I believe in hard work, learning from every experience, and staying focused on my goals. Right now, I am working on developing my skills, gaining knowledge, and preparing myself to start my own venture in the future.</p>
-                </div>
-                <div class="about-values">
-                    <div class="value-card">
-                        <i class="fas fa-lightbulb"></i>
-                        <h3>Innovation</h3>
-                        <p>Passionate about creating new ideas and solutions</p>
-                    </div>
-                    <div class="value-card">
-                        <i class="fas fa-graduation-cap"></i>
-                        <h3>Learning</h3>
-                        <p>Continuously developing skills and knowledge</p>
-                    </div>
-                    <div class="value-card">
-                        <i class="fas fa-bullseye"></i>
-                        <h3>Focus</h3>
-                        <p>Staying committed to achieving my goals</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact-section">
-        <div class="contact-container">
-            <div class="contact-content">
-                <h2 class="section-title">Get in <span class="highlight">Touch</span></h2>
-                <p class="contact-intro">I'd love to hear from you! Whether you have a question, want to collaborate, or just want to say hello, feel free to reach out. I'm always open to new opportunities and interesting conversations.</p>
-                
-                <div class="contact-methods">
-                    <div class="contact-card">
-                        <i class="fas fa-phone"></i>
-                        <h3>Phone</h3>
-                        <p>+91 7050722231</p>
-                        <a href="tel:+917050722231" class="contact-link">Call Me</a>
-                    </div>
-                    <div class="contact-card">
-                        <i class="fas fa-envelope"></i>
-                        <h3>Email</h3>
-                        <p>rohitfunde@gmail.com</p>
-                        <a href="mailto:rohitfunde@gmail.com" class="contact-link">Email Me</a>
-                    </div>
-                    <div class="contact-card">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <h3>Location</h3>
-                        <p>Khatiya, India</p>
-                        <a href="https://maps.app.goo.gl/PnW7d4xfyjYptZAz8" class="contact-link">View on Map</a>
-                    </div>
-                </div>
-
-                <div class="social-contact">
-                    <p class="social-text">Connect with me on social media:</p>
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com/in/rohit-funde/" class="social-icon"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/rohitfunde" class="social-icon"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section>
-        <div>
-
-
-            <!-- contact.html -->
-<div class="contact-wrapper" id="contactus">
-    <div class="contact-container">
-      <div class="contact-box">
-        <div class="contact-header">
-          <h1>Contact Us</h1>
-          <p>Fill up the form below to send us a message.</p>
-        </div>
-        <div class="form-wrapper">
-          <form action="https://api.web3forms.com/submit" method="POST" id="form">
-            <input type="hidden" name="access_key" value="b7df6b96-51d0-497a-89af-4f05be29a323" />
-            <input type="hidden" name="subject" value="New Submission from Web3Forms" />
-            <input type="checkbox" name="botcheck" style="display: none;" />
-  
-            <div class="form-group">
-              <label for="name">Full Name</label>
-              <input type="text" name="name" id="name" placeholder="John Doe" required />
-            </div>
-  
-            <div class="form-group">
-              <label for="email">Email Address</label>
-              <input type="email" name="email" id="email" placeholder="you@company.com" required />
-              
-            </div>
-  
-            <div class="form-group">
-              <label for="phone">Phone Number</label>
-              <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required />
-            </div>
-  
-            <div class="form-group">
-              <label for="message">Your Message</label>
-              <textarea rows="5" name="message" id="message" placeholder="Your Message" required></textarea>
-            </div>
-  
-            <div class="form-group">
-              <button type="submit">Send Message</button>
-            </div>
-  
-            <p id="result"></p>
-          </form>
+        <div class="about-values">
+          <div class="value-card">
+            <i class="fas fa-lightbulb"></i>
+            <h3>Innovation</h3>
+            <p>Passionate about creating new ideas and solutions</p>
+          </div>
+          <div class="value-card">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Learning</h3>
+            <p>Continuously developing skills and knowledge</p>
+          </div>
+          <div class="value-card">
+            <i class="fas fa-bullseye"></i>
+            <h3>Focus</h3>
+            <p>Staying committed to achieving my goals</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  
-        </div>
+  </section>
+
+  <div class="project" id="project">
+    <section class="portfolio-section">
+      <h1 class="section-title">My Work</h1>
+      <div class="projects-grid" id="projects">
+        <!-- Project Cards -->
+      </div>
     </section>
 
-    <script src="script.js"></script>
+    <!-- Modal -->
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDesc"></p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <section id="contact" class="contact-section">
+    <div class="contact-container">
+      <div class="contact-content">
+        <h2 class="section-title">Get in <span class="highlight">Touch</span></h2>
+        <p class="contact-intro">I'd love to hear from you! Whether you have a question, want to collaborate, or just
+          want to say hello, feel free to reach out. I'm always open to new opportunities and interesting conversations.
+        </p>
+
+        <div class="contact-methods">
+          <div class="contact-card">
+            <i class="fas fa-phone"></i>
+            <h3>Phone</h3>
+            <p>+91 7050722231</p>
+            <a href="tel:+917050722231" class="contact-link">Call Me</a>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>rohitfunde@gmail.com</p>
+            <a href="mailto:rohitfunde@gmail.com" class="contact-link">Email Me</a>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Location</h3>
+            <p>Khatiya, India</p>
+            <a href="https://maps.app.goo.gl/PnW7d4xfyjYptZAz8" class="contact-link">View on Map</a>
+          </div>
+        </div>
+
+        <div class="social-contact">
+          <p class="social-text">Connect with me on social media:</p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/rohit-funde/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/rohitfunde" class="social-icon"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section>
+    <div>
+
+
+      <!-- contact.html -->
+      <div class="contact-wrapper" id="contactus">
+        <div class="contact-container">
+          <div class="contact-box">
+            <div class="contact-header">
+              <h1>Contact Us</h1>
+              <p>Fill up the form below to send us a message.</p>
+            </div>
+            <div class="form-wrapper">
+              <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                <input type="hidden" name="access_key" value="18e6940d-dcc4-4464-b614-85dc8b4b97dd" />
+                <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+                <input type="checkbox" name="botcheck" style="display: none;" />
+
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" name="name" id="name" placeholder="John Doe" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" name="email" id="email" placeholder="you@company.com" required />
+
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Your Message</label>
+                  <textarea rows="5" name="message" id="message" placeholder="Your Message" required></textarea>
+                </div>
+
+                <div class="form-group">
+                  <button type="submit">Send Message</button>
+                </div>
+
+                <p id="result"></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- footer section -->
+
+  <footer class="footer">
+  <div class="footer-container">
+    <h2 class="footer-brand">RohitFunde</h2>
+    <nav class="footer-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="footer-socials">
+      <a href="https://github.com/rohitfunde" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/rohit-funde/" target="_blank">LinkedIn</a>
+  
+    </div>
+    <p class="footer-copy">&copy; <span id="year"></span> RohitFunde. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
 </body>
-</html> 
+
+</html>
